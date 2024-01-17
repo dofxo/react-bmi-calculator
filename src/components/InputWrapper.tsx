@@ -57,7 +57,7 @@ const InputWrapper = ({
 										setSelectedGender(e.target.nextElementSibling?.textContent);
 									}}
 								/>
-								<label htmlFor={htmlFor}>{label}</label>
+								<label htmlFor={label}>{label}</label>
 							</div>
 						);
 					})}
