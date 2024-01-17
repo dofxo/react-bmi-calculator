@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
+# BMI Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This BMI (Body Mass Index) Calculator app is a simple and user-friendly tool to help individuals estimate their BMI based on their weight and height. BMI is a widely used indicator of body fatness and is helpful in assessing health risks associated with weight.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![BMI Calculator App](link_to_screenshot)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Easy-to-Use Interface:** The app provides a straightforward interface for users to input their weight and height.
+- **BMI Calculation:** The app calculates the BMI based on the entered weight and height.
+- **Interpretation of BMI:** Users receive a clear interpretation of their BMI, indicating whether they are underweight, normal weight, overweight, or obese.
+- **Units Support:** Users can input their weight and height in both metric (kilograms, centimeters) and imperial (pounds, inches) units.
+- **Responsive Design:** The app is designed to be responsive and works well on various devices.
