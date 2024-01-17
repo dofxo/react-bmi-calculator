@@ -4,8 +4,6 @@
 
 This BMI (Body Mass Index) Calculator app is a simple and user-friendly tool to help individuals estimate their BMI based on their weight and height. BMI is a widely used indicator of body fatness and is helpful in assessing health risks associated with weight.
 
-![BMI Calculator App](https://dofxo.github.io/react-bmi-calculator/)
-
 ## Features
 
 - **Easy-to-Use Interface:** The app provides a straightforward interface for users to input their weight and height.
