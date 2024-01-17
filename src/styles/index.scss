@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "./fonts.scss";
+@import "./colors.scss";
+
+body {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #11235a25;
+}
+
+// remove number input arrows
+
+input[type='number'] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
